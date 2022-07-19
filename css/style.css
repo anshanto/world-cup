@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* top banner */
+
+.top-banner-container {
+    justify-content: center;
+    align-items: center;
+    width: 1100px;
+    height: 500px;
+    background: #161616;
+    border-radius: 30px;
+    background-image: url('../images/Banner\ Image.png');
+    background-repeat: no-repeat;
+    background-position-x: 85%;
+    margin-top: 50px;
+    margin-left: 85px;
+    background-size: 450px 500px;
+}
+
+.top-banner {
+    width: 500px;
+    height: 500px;
+    padding-top: 45px;
+    padding-left: 80px;
+}
+
+.top-banner-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    color: #FFFFFF;
+}
+
+p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+.watch-button {
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 14px 30px;
+    background: #DD0000;
+    border-radius: 5px;
+    color: #FFFFFF;
+    border: none;
+    margin-top: 20px;
+}
+
+.fa-greater-than {
+    padding-left: 10px;
+}
