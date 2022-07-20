@@ -59,3 +59,76 @@ p {
 .fa-greater-than {
     padding-left: 10px;
 }
+
+nav {
+    width: 280px;
+    height: 280px;
+    background-color: #161616;
+    border-radius: 10px;
+    margin-top: 80px;
+    margin-left: 85px;
+}
+
+ul {
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    list-style: none;
+}
+
+.upcoming-match {
+    width: 220px;
+    height: 54px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    padding-top: 15px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.upcoming-match>a {
+    padding-top: 60px;
+    padding-left: 40px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    color: #161616;
+}
+
+.all-group {
+    width: 220px;
+    height: 54px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    padding-top: 15px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.all-group>a {
+    padding-top: 60px;
+    padding-left: 70px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    color: #161616;
+}
+
+.blog {
+    width: 220px;
+    height: 54px;
+    background-color: #DD0000;
+    border-radius: 8px;
+    padding-top: 15px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.blog>a {
+    color: #FFFFFF;
+    padding-top: 60px;
+    padding-left: 90px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+}
