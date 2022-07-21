@@ -66,7 +66,7 @@
     display: flex;
 }
 
-nav {
+/* nav {
     width: 280px;
     height: 280px;
     background-color: #161616;
@@ -137,7 +137,7 @@ ul {
     text-decoration: none;
     font-weight: 500;
     font-size: 20px;
-}
+} */
 
 /* playesr blog */
 
@@ -215,16 +215,6 @@ ul {
 
 .fa-clock {
     color: rgba(22, 22, 22, 0.7);
-}
-
-.blog {
-    width: 220px;
-    height: 54px;
-    background-color: #DD0000;
-    border-radius: 8px;
-    padding-top: 15px;
-    margin-top: 20px;
-    margin-left: 30px;
 }
 
 /* footer */
@@ -828,73 +818,44 @@ hr {
     }
 
     nav {
-        width: 680px;
-        background-color: #161616;
-        border-radius: 10px;
-        margin-top: 60px;
-        margin-left: 85px;
-        background: none;
+        margin-top: 40px;
+        margin-left: 80px;
     }
 
     nav>ul>li {
-        display: inline;
+        display: inline-block;
     }
 
-    ul {
-        /* justify-content: center;
-        align-items: center; */
-        padding-top: 0px;
-        list-style: none;
+    nav ul {
+        list-style-type: none;
+        margin-left: 30px;
     }
 
-    .upcoming-match {
-        width: 230px;
-        height: 64px;
+    li {
+        padding: 10px 50px;
         background-color: #FFFFFF;
-        padding: 14px 14px;
-        border: 1px solid #E8E8E8;
         border-radius: 10px;
-    }
-
-    .upcoming-match>a {
-        text-decoration: none;
-        font-weight: 500;
-        font-size: 20px;
-        color: #161616;
-    }
-
-    .all-group {
-        width: 230px;
-        height: 64px;
-        background-color: #FFFFFF;
-        padding: 14px 14px;
+        text-align: center;
+        background: #FFFFFF;
         border: 1px solid #E8E8E8;
-        border-radius: 10px;
+        margin-right: 30px;
     }
 
-    .all-group>a {
+    a {
         text-decoration: none;
+        font-family: 'Poppins';
+        font-style: normal;
         font-weight: 500;
-        font-size: 20px;
+        font-size: 15px;
         color: #161616;
     }
 
     .blog {
-        width: 230px;
-        height: 64px;
         background-color: #DD0000;
-        padding: 14px 14px;
-        border: 1px solid #E8E8E8;
-        border-radius: 10px;
     }
 
-    .blog>a {
+    .blog a {
         color: #FFFFFF;
-        text-decoration: none;
-        font-weight: 500;
-        font-size: 20px;
-        padding-top: 60px;
-        padding-left: 50px;
     }
 
     nav ul li:hover {
@@ -907,7 +868,7 @@ hr {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         margin-left: 80px;
-        margin-top: -200px;
+        margin-top: 40px;
         padding: 0;
         width: 650px;
     }
@@ -1069,12 +1030,11 @@ hr {
         grid-template-columns: repeat(2, 1fr);
         grid-column-gap: 0px;
         margin-left: 80px;
-        margin-top: 0px;
-        margin-top: -200px;
+        margin-top: 40px;
     }
 
     .vs-blog {
-        width: 250px;
+        width: 300px;
         height: 250px;
         border: 1px solid #E8E8E8;
         border-radius: 10px;
@@ -1202,76 +1162,45 @@ hr {
     }
 
     nav {
-        width: 280px;
-        height: 280px;
-        background-color: #161616;
+        width: 270px;
+        height: 270px;
+        background: #161616;
         border-radius: 10px;
-        margin-top: 80px;
+        margin-top: 84px;
         margin-left: 85px;
     }
 
-    ul {
-        justify-content: center;
-        align-items: center;
-        padding-top: 20px;
-        list-style: none;
-    }
-
-    .upcoming-match {
+    nav ul {
+        list-style-type: none;
         width: 220px;
-        height: 54px;
+        height: 220px;
+        margin-left: 25px;
+        margin-top: 43px;
+    }
+
+    li {
+        padding: 10px 10px;
         background-color: #FFFFFF;
-        border-radius: 8px;
-        padding-top: 15px;
+        border-radius: 10px;
+        text-align: center;
         margin-top: 20px;
-        margin-left: 30px;
     }
 
-    .upcoming-match>a {
-        padding-top: 60px;
-        padding-left: 40px;
+    a {
         text-decoration: none;
-        font-weight: 500;
-        font-size: 20px;
-        color: #161616;
-    }
-
-    .all-group {
-        width: 220px;
-        height: 54px;
-        background-color: #FFFFFF;
-        border-radius: 8px;
-        padding-top: 15px;
-        margin-top: 20px;
-        margin-left: 30px;
-    }
-
-    .all-group>a {
-        padding-top: 60px;
-        padding-left: 70px;
-        text-decoration: none;
+        font-family: 'Poppins';
+        font-style: normal;
         font-weight: 500;
         font-size: 20px;
         color: #161616;
     }
 
     .blog {
-        width: 220px;
-        height: 54px;
         background-color: #DD0000;
-        border-radius: 8px;
-        padding-top: 15px;
-        margin-top: 20px;
-        margin-left: 30px;
     }
 
-    .blog>a {
+    .blog a {
         color: #FFFFFF;
-        padding-top: 60px;
-        padding-left: 40px;
-        text-decoration: none;
-        font-weight: 500;
-        font-size: 20px;
     }
 
     /* playesr blog */
@@ -1350,16 +1279,6 @@ hr {
 
     .fa-clock {
         color: rgba(22, 22, 22, 0.7);
-    }
-
-    .blog {
-        width: 220px;
-        height: 54px;
-        background-color: #DD0000;
-        border-radius: 8px;
-        padding-top: 15px;
-        margin-top: 20px;
-        margin-left: 30px;
     }
 
     /* footer */
